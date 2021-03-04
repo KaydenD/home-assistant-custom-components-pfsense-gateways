@@ -41,7 +41,7 @@ CONF_HOST = "host"
 CONF_KEY = "key"
 CONF_MONITORED_GATEWAYS = "monitored_gateway_interfaces"
 
-SCAN_INTERVAL = timedelta(minutes=2)
+SCAN_INTERVAL = timedelta(seconds=5)
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
     {
